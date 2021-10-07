@@ -1,4 +1,5 @@
 <button (click)="addMon()"><span>Add a pokemon <img src="assets/poke-ball.png" style="width: 25px; margin-left: 0.5rem;" /></span></button>
+<button><span>Duplicate a pokemon <img src="assets/poke-ball.png" style="width: 25px; margin-left: 0.5rem;" /></span></button>
 <button (click)="clear()" class="clear"><span>Clear</span></button>
 <div class="parent">
   <img *ngFor="let pokemon of pokemons" [src]="'assets/images/pokemons/' + (pokemon+1) + '.png'" style="width: 150px;" />
