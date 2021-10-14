@@ -1,3 +1,7 @@
-.parent {
-  // display: flex;
+.column {
+  width: 25%;
+  display: inline-table;
+  border: 5px solid #dcdcdc;
+  padding: 1rem;
+  margin: 1rem;
 }
